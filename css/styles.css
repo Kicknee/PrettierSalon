@@ -116,7 +116,7 @@ img {
     font-size: 24px;
     margin: 20px 0; }
   .usluga p {
-    font-size: 16px; }
+    font-size: 18px; }
 
 .modal.active {
   display: flex; }
@@ -184,10 +184,21 @@ img {
   background-color: #f5f5f5;
   padding: 50px; }
   #o-nas p {
-    font-size: 16px; }
+    font-size: 18px; }
 
 #kontakt {
-  padding: 50px; }
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  font-size: 18px; }
+  #kontakt .right {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    padding-top: 50px; }
+    #kontakt .right span {
+      padding-top: 15px; }
   #kontakt form {
     margin-top: 20px; }
     #kontakt form label {
@@ -199,6 +210,8 @@ img {
       width: 100%;
       padding: 10px;
       margin-bottom: 20px; }
+    #kontakt form textarea {
+      height: 100px; }
     #kontakt form button {
       display: inline-block;
       padding: 10px 20px;
@@ -223,7 +236,8 @@ img {
 footer {
   background-color: #333;
   padding: 20px;
-  text-align: center; }
+  text-align: center;
+  letter-spacing: 2px; }
   footer p {
     color: #fff;
     font-size: 14px; }
@@ -249,4 +263,7 @@ footer {
     margin-bottom: 20px; }
   #o-nas,
   #kontakt {
-    padding: 30px; } }
+    padding: 30px; }
+  #kontakt {
+    grid-template-columns: 1fr;
+    place-items: start; } }

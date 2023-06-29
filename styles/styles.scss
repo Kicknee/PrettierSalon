@@ -135,7 +135,7 @@ img {
   }
 
   p {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 .modal.active {
@@ -218,13 +218,26 @@ img {
   padding: 50px;
 
   p {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
 #kontakt {
   padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  font-size: 18px;
 
+  .right {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    padding-top: 50px;
+    span {
+      padding-top: 15px;
+    }
+  }
   form {
     margin-top: 20px;
 
@@ -241,6 +254,9 @@ img {
       margin-bottom: 20px;
     }
 
+    textarea {
+      height: 100px;
+    }
     button {
       @include base-btn($primary-color);
     }
@@ -259,6 +275,7 @@ footer {
   background-color: $primary-color;
   padding: 20px;
   text-align: center;
+  letter-spacing: 2px;
 
   p {
     color: #fff;
@@ -302,5 +319,10 @@ footer {
   #o-nas,
   #kontakt {
     padding: 30px;
+  }
+
+  #kontakt {
+    grid-template-columns: 1fr;
+    place-items: start;
   }
 }
