@@ -30,9 +30,11 @@ nav {
 
   ul {
     list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: start;
 
     li {
-      display: inline-block;
       margin-right: 20px;
       padding: 10px;
       letter-spacing: 2px;
@@ -228,7 +230,7 @@ img {
 #about {
   background-color: $secondary-color;
   padding: 50px;
-
+  text-align: justify;
   p {
     font-size: 18px;
   }
@@ -240,6 +242,7 @@ img {
   grid-template-columns: repeat(2, 1fr);
   place-items: center;
   font-size: 18px;
+  text-align: justify;
 
   .right {
     display: flex;
@@ -306,6 +309,9 @@ footer {
     padding: 16px;
 
     ul {
+      height: 100%;
+      width: 100%;
+      justify-content: space-around;
       text-align: center;
 
       li {
@@ -332,6 +338,7 @@ footer {
   #about,
   #contact {
     padding: 30px;
+    text-align: justify;
   }
 
   #contact {
