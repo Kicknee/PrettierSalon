@@ -1,4 +1,4 @@
-document.querySelectorAll(".uslugi-btn").forEach((element) => {
+document.querySelectorAll(".services-btn").forEach((element) => {
   element.addEventListener("click", (event) => {
     document
       .querySelector(`.modal.${event.target.classList[1]}`)
@@ -15,14 +15,6 @@ document.querySelectorAll(".uslugi-btn").forEach((element) => {
 
         document.body.classList.remove("stop-scrolling");
       });
-
-    // document.querySelectorAll(`.modal .info`).forEach((el) => {
-    //   el.addEventListener("click", () => {
-    //     document
-    //       .querySelector(`.modal.${event.target.classList[1]}`)
-    //       .classList.remove("active");
-    //   });
-    // });
   });
 });
 
