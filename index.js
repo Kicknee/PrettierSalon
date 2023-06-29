@@ -11,6 +11,7 @@ document.querySelectorAll(".uslugi-btn").forEach((element) => {
           .querySelector(`.modal.${event.target.classList[1]}`)
           .classList.remove("active");
       });
+
     // document.querySelectorAll(`.modal .info`).forEach((el) => {
     //   el.addEventListener("click", () => {
     //     document
