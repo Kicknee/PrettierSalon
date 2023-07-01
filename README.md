@@ -5,6 +5,7 @@
 
 ![prettierSalon_gif](https://github.com/Kicknee/PrettierSalon/assets/47301333/799262ae-cdda-4952-8ccf-8447bcdc722f)
 
+https://prettier-salon-kicknee-project.netlify.app/
 ### Opis / Description
 
 Jest to statyczna strona salonu kosmetycznego składająca się z kilku sekcji zawierąjących informacje o salonie i wykonywanych usługach, lokalizacji a także formularz kontaktowy obsługiwany przez serwis Formspree. 
