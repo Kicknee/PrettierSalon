@@ -15,6 +15,11 @@ html {
 .stop-scrolling {
   height: 100%;
   overflow: hidden;
+  padding-right: calc(15px - (100vw - 100%));
+
+  @media (max-width: 768px) {
+    padding-right: unset;
+  }
 }
 body {
   font-family: "Playfair Display", serif;

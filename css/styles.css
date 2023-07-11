@@ -10,7 +10,11 @@ html {
 
 .stop-scrolling {
   height: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  padding-right: calc(15px - (100vw - 100%)); }
+  @media (max-width: 768px) {
+    .stop-scrolling {
+      padding-right: unset; } }
 
 body {
   font-family: "Playfair Display", serif; }

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node-sass styles/styles.scss css/styles.css -w"
+    "start": "node-sass styles/styles.scss css/styles.css -w"
   },
   "keywords": [],
   "author": "",
